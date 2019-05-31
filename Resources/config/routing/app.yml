@@ -1,0 +1,5 @@
+admin_static_page_show:
+    path:     /page/{slug}
+    defaults: { _controller: 'StaticBundle:App:showPage' }
+    
+  

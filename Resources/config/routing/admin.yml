@@ -1,0 +1,42 @@
+# Admin
+puzzle_admin_static_page_list:
+    path:     /page/list
+    defaults: { _controller: 'StaticBundle:Admin:listPages' }
+
+puzzle_admin_static_page_create:
+    path:     /page/create
+    defaults: { _controller: 'StaticBundle:Admin:createPage' }
+    
+puzzle_admin_static_page_show:
+    path:     /page/{id}
+    defaults: { _controller: 'StaticBundle:Admin:showPage' }
+    
+puzzle_admin_static_page_update:
+    path:     /page/{id}/update
+    defaults: { _controller: 'StaticBundle:Admin:updatePage' }
+
+puzzle_admin_static_page_delete:
+    path:     /page/{id}/delete
+    defaults: { _controller: 'StaticBundle:Admin:deletePage' }
+
+# Admin
+puzzle_admin_static_template_list:
+    path:     /template/list
+    defaults: { _controller: 'StaticBundle:Admin:listTemplates' }
+    
+puzzle_admin_static_template_create:
+    path:     /template/create
+    defaults: { _controller: 'StaticBundle:Admin:createTemplate' }
+
+puzzle_admin_static_template_show:
+    path:     /template/{id}
+    defaults: { _controller: 'StaticBundle:Admin:showTemplate' }
+    
+puzzle_admin_static_template_update:
+    path:     /template/{id}/update
+    defaults: { _controller: 'StaticBundle:Admin:updateTemplate' }
+
+puzzle_admin_static_template_delete:
+    path:     /template/{id}/delete
+    defaults: { _controller: 'StaticBundle:Admin:deleteTemplate' }
+  
