@@ -19,10 +19,10 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Webundle\\Puzzle\\StaticBundle" : ""
+			"Puzzle\\StaticBundle" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/StaticBundle",
+	"target-dir" : "Puzzle/StaticBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
